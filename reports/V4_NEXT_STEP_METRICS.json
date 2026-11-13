@@ -1,0 +1,823 @@
+{
+  "rows": [
+    {
+      "key": "DEV/buy_hold/BASE",
+      "model": "buy_hold",
+      "cost": "BASE",
+      "net_return": 83.737710912864,
+      "sharpe": 1.1211018929157646,
+      "max_drawdown": -0.7734763545587215,
+      "turnover_notional_over_initial": 145.34865831006667,
+      "trades": 14,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.8693003948719432,
+      "effective_cost_paid": 12354.635956355669,
+      "G1": "NOT_EVALUATED",
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/buy_hold/BASE"
+    },
+    {
+      "key": "DEV/buy_hold/STRESS",
+      "model": "buy_hold",
+      "cost": "STRESS",
+      "net_return": 79.85216901735701,
+      "sharpe": 1.1139610176360484,
+      "max_drawdown": -0.7734110398585073,
+      "turnover_notional_over_initial": 140.17415055429674,
+      "trades": 14,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.8685597975243026,
+      "effective_cost_paid": 16820.89806651561,
+      "G1": "NOT_EVALUATED",
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/buy_hold/STRESS"
+    },
+    {
+      "key": "DEV/sma200/BASE",
+      "model": "sma200",
+      "cost": "BASE",
+      "net_return": 11.813343505326003,
+      "sharpe": 0.9280618769219211,
+      "max_drawdown": -0.5405597538189684,
+      "turnover_notional_over_initial": 710.3684118914366,
+      "trades": 83,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.3607005086645961,
+      "effective_cost_paid": 60381.315010772116,
+      "G1": "NOT_EVALUATED",
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sma200/BASE"
+    },
+    {
+      "key": "DEV/sma200/STRESS",
+      "model": "sma200",
+      "cost": "STRESS",
+      "net_return": 8.594635144217003,
+      "sharpe": 0.848450016765684,
+      "max_drawdown": -0.5779234912797664,
+      "turnover_notional_over_initial": 601.4580242579839,
+      "trades": 83,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.36023380984179615,
+      "effective_cost_paid": 72174.96291095806,
+      "G1": "NOT_EVALUATED",
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sma200/STRESS"
+    },
+    {
+      "key": "DEV/rule/BASE",
+      "model": "rule",
+      "cost": "BASE",
+      "net_return": 1.986095975236,
+      "sharpe": 0.7809742939737211,
+      "max_drawdown": -0.38626698654094827,
+      "turnover_notional_over_initial": 109.05396496687509,
+      "trades": 115,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.18517230546801006,
+      "effective_cost_paid": 9269.587022184383,
+      "G1": "NOT_EVALUATED",
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/rule/BASE"
+    },
+    {
+      "key": "DEV/rule/STRESS",
+      "model": "rule",
+      "cost": "STRESS",
+      "net_return": 1.516479575371,
+      "sharpe": 0.6753068059158178,
+      "max_drawdown": -0.40391320537245046,
+      "turnover_notional_over_initial": 99.00525495579319,
+      "trades": 115,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.18476726303076954,
+      "effective_cost_paid": 11880.630594695183,
+      "G1": "NOT_EVALUATED",
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/rule/STRESS"
+    },
+    {
+      "key": "DEV/ridge/BASE",
+      "model": "ridge",
+      "cost": "BASE",
+      "net_return": 0.4176951076439999,
+      "sharpe": 0.2996411105976041,
+      "max_drawdown": -0.5687929972334644,
+      "turnover_notional_over_initial": 90.23071282278732,
+      "trades": 130,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.2649481782671435,
+      "effective_cost_paid": 7669.610589936923,
+      "G1": false,
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/ridge/BASE"
+    },
+    {
+      "key": "DEV/ridge/STRESS",
+      "model": "ridge",
+      "cost": "STRESS",
+      "net_return": 0.1255182107200001,
+      "sharpe": 0.19489791086349054,
+      "max_drawdown": -0.5974724008424412,
+      "turnover_notional_over_initial": 80.29244998905645,
+      "trades": 130,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.26433082484336723,
+      "effective_cost_paid": 9635.093998686774,
+      "G1": false,
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/ridge/STRESS"
+    },
+    {
+      "key": "DEV/elasticnet/BASE",
+      "model": "elasticnet",
+      "cost": "BASE",
+      "net_return": 0.3955604316569999,
+      "sharpe": 0.29280361593177034,
+      "max_drawdown": -0.5682253618865731,
+      "turnover_notional_over_initial": 86.22646608573164,
+      "trades": 127,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.2606843613717009,
+      "effective_cost_paid": 7329.249617287191,
+      "G1": false,
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/elasticnet/BASE"
+    },
+    {
+      "key": "DEV/elasticnet/STRESS",
+      "model": "elasticnet",
+      "cost": "STRESS",
+      "net_return": 0.11066818928899999,
+      "sharpe": 0.1868971946789475,
+      "max_drawdown": -0.5968243010578761,
+      "turnover_notional_over_initial": 76.69625471057482,
+      "trades": 127,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.26008497224558746,
+      "effective_cost_paid": 9203.550565268979,
+      "G1": false,
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/elasticnet/STRESS"
+    },
+    {
+      "key": "DEV/lightgbm/BASE",
+      "model": "lightgbm",
+      "cost": "BASE",
+      "net_return": 2.1618227511090002,
+      "sharpe": 0.7688772165351785,
+      "max_drawdown": -0.401204526231948,
+      "turnover_notional_over_initial": 118.8152542065313,
+      "trades": 128,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.24956765786701257,
+      "effective_cost_paid": 10099.296607555161,
+      "G1": false,
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/lightgbm/BASE"
+    },
+    {
+      "key": "DEV/lightgbm/STRESS",
+      "model": "lightgbm",
+      "cost": "STRESS",
+      "net_return": 1.5599810171169999,
+      "sharpe": 0.648549433143396,
+      "max_drawdown": -0.42755619148626745,
+      "turnover_notional_over_initial": 105.21011296412505,
+      "trades": 128,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.24899416313076198,
+      "effective_cost_paid": 12625.213555695005,
+      "G1": false,
+      "G2": "NOT_EVALUATED",
+      "G3": "NOT_EVALUATED",
+      "G4": "NOT_EVALUATED",
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/lightgbm/STRESS"
+    },
+    {
+      "key": "DEV/sidgtn_seed11/BASE",
+      "model": "sidgtn_seed11",
+      "cost": "BASE",
+      "net_return": 0.0690169318900001,
+      "sharpe": 0.15418010867577434,
+      "max_drawdown": -0.585984165356846,
+      "turnover_notional_over_initial": 70.3668988621709,
+      "trades": 127,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.24701633118741684,
+      "effective_cost_paid": 5981.186403284526,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed11/BASE"
+    },
+    {
+      "key": "DEV/sidgtn_seed11/STRESS",
+      "model": "sidgtn_seed11",
+      "cost": "STRESS",
+      "net_return": -0.1353379369740001,
+      "sharpe": 0.04135088074144218,
+      "max_drawdown": -0.6417546560093659,
+      "turnover_notional_over_initial": 63.76295231202615,
+      "trades": 127,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.24642707852771625,
+      "effective_cost_paid": 7651.554277443138,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed11/STRESS"
+    },
+    {
+      "key": "DEV/sidgtn_seed22/BASE",
+      "model": "sidgtn_seed22",
+      "cost": "BASE",
+      "net_return": 1.3389745343530002,
+      "sharpe": 0.5576441093637782,
+      "max_drawdown": -0.5821552038277467,
+      "turnover_notional_over_initial": 94.06997140842752,
+      "trades": 130,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.256463258300008,
+      "effective_cost_paid": 7995.94756971634,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed22/BASE"
+    },
+    {
+      "key": "DEV/sidgtn_seed22/STRESS",
+      "model": "sidgtn_seed22",
+      "cost": "STRESS",
+      "net_return": 0.8875386341060002,
+      "sharpe": 0.44965863870108397,
+      "max_drawdown": -0.5910836770616292,
+      "turnover_notional_over_initial": 83.69483994661978,
+      "trades": 130,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.255828254050052,
+      "effective_cost_paid": 10043.380793594373,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed22/STRESS"
+    },
+    {
+      "key": "DEV/sidgtn_seed33/BASE",
+      "model": "sidgtn_seed33",
+      "cost": "BASE",
+      "net_return": 1.6746497815880002,
+      "sharpe": 0.6276761819673656,
+      "max_drawdown": -0.5577136812056704,
+      "turnover_notional_over_initial": 104.58061378902156,
+      "trades": 130,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.2545008548359386,
+      "effective_cost_paid": 8889.352172066832,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed33/BASE"
+    },
+    {
+      "key": "DEV/sidgtn_seed33/STRESS",
+      "model": "sidgtn_seed33",
+      "cost": "STRESS",
+      "net_return": 1.160414519979,
+      "sharpe": 0.5188239406772684,
+      "max_drawdown": -0.5658868120633713,
+      "turnover_notional_over_initial": 92.83361381959615,
+      "trades": 130,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.25387398199523864,
+      "effective_cost_paid": 11140.033658351538,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed33/STRESS"
+    },
+    {
+      "key": "DEV/sidgtn_seed44/BASE",
+      "model": "sidgtn_seed44",
+      "cost": "BASE",
+      "net_return": 1.73897497677,
+      "sharpe": 0.6756472928730738,
+      "max_drawdown": -0.37763441666049136,
+      "turnover_notional_over_initial": 108.03144876228158,
+      "trades": 128,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.2525535997917123,
+      "effective_cost_paid": 9182.673144793936,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed44/BASE"
+    },
+    {
+      "key": "DEV/sidgtn_seed44/STRESS",
+      "model": "sidgtn_seed44",
+      "cost": "STRESS",
+      "net_return": 1.205322396662,
+      "sharpe": 0.5554684303409609,
+      "max_drawdown": -0.3898819283630067,
+      "turnover_notional_over_initial": 96.20742853943062,
+      "trades": 128,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.2526404901425773,
+      "effective_cost_paid": 11544.891424731675,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed44/STRESS"
+    },
+    {
+      "key": "DEV/sidgtn_seed55/BASE",
+      "model": "sidgtn_seed55",
+      "cost": "BASE",
+      "net_return": 1.380714552848,
+      "sharpe": 0.6133569392349586,
+      "max_drawdown": -0.44489202542795414,
+      "turnover_notional_over_initial": 83.5060019401935,
+      "trades": 128,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.24075382150790609,
+      "effective_cost_paid": 7098.010164916447,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed55/BASE"
+    },
+    {
+      "key": "DEV/sidgtn_seed55/STRESS",
+      "model": "sidgtn_seed55",
+      "cost": "STRESS",
+      "net_return": 0.9457141733059998,
+      "sharpe": 0.49439556759835657,
+      "max_drawdown": -0.45830518373700146,
+      "turnover_notional_over_initial": 74.64085661210204,
+      "trades": 128,
+      "independent_28d_windows": 106,
+      "mean_exposure": 0.24017854849282524,
+      "effective_cost_paid": 8956.902793452244,
+      "G1": false,
+      "G2": false,
+      "G3": false,
+      "G4": false,
+      "missing_evidence": [
+        "old execution exporter fails causal audit; only rule DEV corrected",
+        "no Alpha promotion; auxiliary-loss registration deviation",
+        "new track has no mature forward windows"
+      ],
+      "source": "experiments/v4/backtest_summary/metrics.json",
+      "source_key": "DEV/sidgtn_seed55/STRESS"
+    }
+  ],
+  "forecasts": {
+    "elasticnet/14": {
+      "mae": 0.14402005919554745,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -0.09172854234032424,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": -4.323794349458015,
+        "p_one_sided": 0.9999923315863714,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "elasticnet/28": {
+      "mae": 0.2476974786798202,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -0.16838771428507848,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": -4.33142373775618,
+        "p_one_sided": 0.9999925925869633,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "lightgbm/14": {
+      "mae": 0.14046745691992438,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -0.06479842353920096,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": -3.442986857358208,
+        "p_one_sided": 0.9997123363637784,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "lightgbm/28": {
+      "mae": 0.23163220668177412,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -0.09260791010940372,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": -2.6463072376494323,
+        "p_one_sided": 0.9959312065348084,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "ridge/14": {
+      "mae": 0.14180452961597853,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -0.07493395905848765,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": -3.7524134792687738,
+        "p_one_sided": 0.9999124298570117,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "ridge/28": {
+      "mae": 0.2400214861926471,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -0.1321800977814378,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": -3.674308881642364,
+        "p_one_sided": 0.9998807529595811,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed11/14": {
+      "mae": 0.1433933344820353,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -0.08697772317143171,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": -3.3883436280663703,
+        "p_one_sided": 0.999648419448081,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "q10_q90_coverage": 0.6909220617085786,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed11/28": {
+      "mae": 0.21599268146839193,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -0.018836351295163034,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": -0.9122437834010025,
+        "p_one_sided": 0.8191797998381383,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "q10_q90_coverage": 0.6525533890436397,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed22/14": {
+      "mae": 0.1418608640381016,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -0.07536099607604996,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": -1.8924421973276722,
+        "p_one_sided": 0.970783955871056,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "q10_q90_coverage": 0.674514000356697,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed22/28": {
+      "mae": 0.21735625005863074,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -0.025268297219325886,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": -0.5975534716404638,
+        "p_one_sided": 0.7249310409752796,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "q10_q90_coverage": 0.6484679665738161,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed33/14": {
+      "mae": 0.14439062197889221,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -0.09453755359588323,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": -4.6816052478702535,
+        "p_one_sided": 0.9999985768140206,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "q10_q90_coverage": 0.6832530765115035,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed33/28": {
+      "mae": 0.21312594949760907,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -0.00531399154946488,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": -0.3599078605194297,
+        "p_one_sided": 0.640541980717686,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "q10_q90_coverage": 0.6265552460538533,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed44/14": {
+      "mae": 0.1367263714789223,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -0.03643952840966702,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": -2.366918965765151,
+        "p_one_sided": 0.9910315701804403,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "q10_q90_coverage": 0.6597110754414125,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed44/28": {
+      "mae": 0.2125270367870599,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -0.0024889234193230525,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": -0.28785381825730333,
+        "p_one_sided": 0.6132706805131796,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "q10_q90_coverage": 0.6079851439182915,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed55/14": {
+      "mae": 0.13741934594336713,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -0.04169254667790856,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": -2.4750121740381177,
+        "p_one_sided": 0.9933384182863059,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "q10_q90_coverage": 0.6820046370608168,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "sidgtn_seed55/28": {
+      "mae": 0.21866769203671024,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -0.03145436218596376,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": -1.7146939433877706,
+        "p_one_sided": 0.9567993227072267,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "q10_q90_coverage": 0.6571959145775301,
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "zero/14": {
+      "mae": 0.1319192960936959,
+      "zero_mae": 0.13191929459571838,
+      "mae_skill": -1.1355257178990996e-08,
+      "samples": 5607,
+      "independent_windows": 205,
+      "dm": {
+        "statistic": 0.0,
+        "p_one_sided": 0.5,
+        "n_dates": 2871,
+        "hac_lag": 13
+      },
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    },
+    "zero/28": {
+      "mae": 0.2119993865501154,
+      "zero_mae": 0.21199938654899597,
+      "mae_skill": -5.2804427497221695e-12,
+      "samples": 5385,
+      "independent_windows": 98,
+      "dm": {
+        "statistic": 0.0,
+        "p_one_sided": 0.5,
+        "n_dates": 2759,
+        "hac_lag": 27
+      },
+      "p_holm": 1.0,
+      "G1_horizon_pass": false
+    }
+  },
+  "alpha": "NO_GO_ALPHA",
+  "historical_only": true,
+  "causality_caveat": true,
+  "source_hashes": {
+    "experiments/v4/backtest_summary/metrics.json": "da4dbaf63cc15aebb2c39f20c829837b63afbe588ff53078a221a093f3de909b",
+    "experiments/v4/validation/metrics.json": "a1b8626de024f5350bb2b7453aa4e7a6c845940bba378dca02f29fefb520e8b0",
+    "experiments/v4/scorecard/metrics.json": "e72657f684d033166672bcf6728b629bd71df8e0083cc6e0cc13ce06b8eaee16",
+    "experiments/v4/extended/metrics.json": "949d7aef5322f808eaf44b31f4c64f4cd9524b9ecf528962c06358042275a5c7"
+  }
+}

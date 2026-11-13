@@ -1,0 +1,7 @@
+# Install only into an isolated training environment; core .venv stays unchanged.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0+cu128
+numpy==2.2.6
+pyarrow==24.0.0
+tzdata==2026.6
+pytest==9.2.0
