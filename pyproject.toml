@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-crypto"
+version = "0.1.0"
+description = "Research-only Kraken archive ingestion; no execution capabilities"
+requires-python = ">=3.12"
+dependencies = ["pyarrow==24.0.0", "tzdata>=2025.2"]
+
+[project.optional-dependencies]
+test = ["pytest==9.2.0"]
+
+[project.scripts]
+quant-crypto = "quant_crypto.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

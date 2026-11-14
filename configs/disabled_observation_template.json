@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "live_enabled": false,
+  "order_enabled": false,
+  "mode": "FILE_ONLY_OFFLINE_OBSERVATION",
+  "online_bot_command": null
+}

@@ -1,0 +1,7 @@
+# Phase 2 ONLY. Install in an isolated GPU environment after baseline verification.
+# Resolve platform-specific compatibility instead of blindly pip-installing PyG on every OS.
+torch>=2.5
+transformers>=4.45
+torch-geometric>=2.5
+scikit-learn>=1.5
+networkx>=3.3

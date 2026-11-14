@@ -1,0 +1,5 @@
+# TASK 001 minimal dependencies. Full tested pins: requirements-lock.txt.
+pyarrow==24.0.0
+tzdata>=2025.2
+pytest==9.2.0
+# Freqtrade 2026.10 remains isolated/deferred; no CCXT or DL frameworks.
